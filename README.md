@@ -3,7 +3,7 @@ K-Means Clustering on FIFA 22 Players
 
 This project applies K-Means clustering to the FIFA 22 player dataset to discover natural groups of players based on performance, market value, wages, and age. It includes both a scratch implementation of K-Means and validation using scikit-learn.
 
-# Project Overview
+Project Overview
 •	Goal: Segment FIFA 22 players into meaningful categories (e.g., stars, rising talents, prospects, role players).
 •	Dataset: FIFA 22 player data (players_22.csv).
 •	Features used:
