@@ -2,7 +2,7 @@ K-Means Clustering on FIFA 22 Players
 
 This project applies K-Means clustering to the FIFA 22 player dataset to discover natural groups of players based on performance, market value, wages, and age. It includes both a scratch implementation of K-Means and validation using scikit-learn.
 
-📌 Project Overview
+Project Overview
 
 Goal: Segment FIFA 22 players into meaningful categories (e.g., stars, rising talents, prospects, role players).
 
@@ -20,7 +20,7 @@ wage_eur (weekly wages)
 
 age
 
-🔍 What is K-Means?
+What is K-Means?
 
 K-Means is an unsupervised learning algorithm that groups data into k clusters based on similarity.
 
@@ -36,7 +36,7 @@ Repeating until centroids stabilize.
 
 The goal is to minimize within-cluster variance, so players within a cluster are as similar as possible.
 
-⚙️ Steps in the Notebook
+Steps in the Notebook
 
 Data preparation
 
@@ -62,7 +62,7 @@ Run sklearn.cluster.KMeans with the same data.
 
 Compare centroids and assignments with the scratch version.
 
-📊 Results & Insights
+Results & Insights
 
 K-Means discovered four player archetypes:
 
@@ -90,9 +90,9 @@ Mid overall, modest wages, often older.
 
 Reliable squad members but limited growth.
 
-👉 These clusters align with football intuition and provide actionable insights for scouting, player valuation, and team building.
+These clusters align with football intuition and provide actionable insights for scouting, player valuation, and team building.
 
-📈 Visualizations
+Visualizations
 
 PCA scatter plots show clusters in 2D with centroids.
 
